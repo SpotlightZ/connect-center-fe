@@ -1,0 +1,256 @@
+.pad-10 {
+    padding: 10px;
+}
+
+.pad-15 {
+    padding: 15px;
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+.pad-top-10 {
+    padding-top: 10px;
+}
+
+.pad-top-15 {
+    padding-top: 15px;
+}
+
+.pad-top-20 {
+    padding-top: 20px;
+}
+
+.pad-lr-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pad-lr-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pad-lr-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pad-lr-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pad-l-10 {
+    padding-left: 10px;
+}
+
+.pad-l-15 {
+    padding-left: 15px;
+}
+
+.pad-l-20 {
+    padding-left: 20px;
+}
+
+.pad-l-30 {
+    padding-left: 30px;
+}
+
+.flex-r {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    min-height:0px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+.align-end {
+    align-items: end;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.gap-150 {
+    gap: 150px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.z-100 {
+    z-index: 100;
+}
+
+.z-200 {
+    z-index: 100;
+}
+
+.scroll-y {
+    overflow-y: auto;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.inset-0 {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.ib {
+    display:inline-block;
+}
+.margin-t-5 {
+    margin-top: 5px;
+}
+
+.margin-t-10 {
+    margin-top: 10px;
+}
+
+.margin-t-15 {
+    margin-top: 15px;
+}
+
+.margin-t-20 {
+    margin-top: 20px;
+}
+
+
+.margin-r-10 {
+    margin-right: 10px;
+}
+
+.margin-r-15 {
+    margin-right: 15px;
+}
+
+.margin-r-20 {
+    margin-right: 20px;
+}
+
+
+.margin-lr-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.margin-lr-15 {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.margin-lr-20 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.success-box {
+    background-color: var(--sapButton_Accept_Background);
+    border-color: var(--sapButton_Accept_BorderColor);
+    color: var(--sapButton_Accept_TextColor) !important;
+}
+
+.warning-box {
+    background-color: var(--sapButton_Attention_Background);
+    border-color: var(--sapButton_Attention_BorderColor);
+    color: var(--sapButton_Attention_TextColor) !important;
+}
+
+.error-box {
+    background-color: var(--sapButton_Reject_Background);
+    border-color: var(--sapButton_Reject_BorderColor);
+    color: var(--sapButton_Reject_TextColor) !important;
+}
+
+.disabled-box {
+    background-color: var(--sapButton_Neutral_Background);
+    border-color: var(--sapButton_Neutral_BorderColor);
+    color: var(--sapContent_DisabledTextColor) !important;
+}
+
+.font-small {
+    font-size: var(--sapFontSmallSize);
+}
+
+.font-small {
+    font-size: var(--sapFontSmallSize);
+}
+
+.font-card-title {
+    font-family: var(--_ui5_card_header_title_font_family)
+}
+
+
+@keyframes ani-breathe {
+    0% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.breathe {
+    animation-timing-function: ease-in-out;
+    animation-name: ani-breathe;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

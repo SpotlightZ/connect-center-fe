@@ -1,0 +1,794 @@
+{
+    "V-Pro maX": {
+        "image": "/devices/vpro-max.jpg",
+        "tabModules": [
+            {
+                "label": {
+                    "en": "Temperature Pressure",
+                    "zh": "温度压力监控"
+                },
+                "module": "TemperaturePressure"
+            },
+            {
+                "label": {
+                    "en": "Raw Report",
+                    "zh": "原始报告"
+                },
+                "module": "RawReport"
+            }
+        ],
+        "fields": [
+            {
+                "label": {
+                    "en": "Load No",
+                    "zh": "锅次"
+                },
+                "field": "loadNo"
+            },
+            {
+                "label": {
+                    "en": "Sterilizer",
+                    "zh": "灭菌器"
+                },
+                "field": "sterilizer"
+            },
+            {
+                "label": {
+                    "en": "VHP Lot No.",
+                    "zh": "VHP批次"
+                },
+                "field": "vhpLotNo"
+            },
+            {
+                "label": {
+                    "en": "VHP Expiration Date",
+                    "zh": "VHP有效期"
+                },
+                "field": "vhpExpirationDate"
+            },
+            {
+                "label": {
+                    "en": "Machine Serial Number",
+                    "zh": "机器序列号"
+                },
+                "field": "machineSerialNumber"
+            },
+            {
+                "label": {
+                    "en": "Condition Time",
+                    "zh": "预处理时间"
+                },
+                "field": "conditionTime"
+            },
+            {
+                "label": {
+                    "en": "Sterilize Time",
+                    "zh": "灭菌时间"
+                },
+                "field": "sterilizeTime"
+            },
+            {
+                "label": {
+                    "en": "Aeration Time",
+                    "zh": "解析时间"
+                },
+                "field": "aerationTime"
+            },
+            {
+                "label": {
+                    "en": "Chamber Open Time",
+                    "zh": "腔体开启时间"
+                },
+                "field": "chamberOpenTime"
+            },
+            {
+                "label": {
+                    "en": "HP Concentration",
+                    "zh": "过氧化氢浓度"
+                },
+                "field": "hpConcentration"
+            }
+        ]
+    },
+    "Vision MC": {
+        "image": "/devices/vision-mc.jpg",
+        "tabModules": [
+            {
+                "label": {
+                    "en": "Phase",
+                    "zh": "阶段监控"
+                },
+                "module": "Phase",
+                "config": {
+                    "isShowChart": true,
+                    "fields": [
+                        {
+                            "label": {
+                                "en": "Phase Time",
+                                "zh": "阶段时间"
+                            },
+                            "field": "phaseTime"
+                        },
+                        {
+                            "label": {
+                                "en": "Water Type",
+                                "zh": "水类型"
+                            },
+                            "field": "waterType"
+                        },
+                        {
+                            "label": {
+                                "en": "Heated",
+                                "zh": "加热"
+                            },
+                            "field": "heated"
+                        },
+                        {
+                            "label": {
+                                "en": "Chemical Pump",
+                                "zh": "化学泵"
+                            },
+                            "field": "chemicalPump"
+                        },
+                        {
+                            "label": {
+                                "en": "Chemical Type",
+                                "zh": "化学类型"
+                            },
+                            "field": "chemicalType"
+                        },
+                        {
+                            "label": {
+                                "en": "Injection Rate",
+                                "zh": "注入速率"
+                            },
+                            "field": "injectionRate"
+                        },
+                        {
+                            "label": {
+                                "en": "Temperature",
+                                "zh": "温度"
+                            },
+                            "field": "temperature"
+                        },
+                        {
+                            "label": {
+                                "en": "Number Of Stages",
+                                "zh": "阶段数量"
+                            },
+                            "field": "numberOfStages"
+                        }
+                    ]
+                }
+            },
+            {
+                "label": {
+                    "en": "Raw Report",
+                    "zh": "原始报告"
+                },
+                "module": "RawReport"
+            }
+        ],
+        "fields": [
+            {
+                "label": {
+                    "en": "Unit Serial Number",
+                    "zh": "机器序列号"
+                },
+                "field": "unitSerialNumber"
+            },
+            {
+                "label": {
+                    "en": "Hospital Name",
+                    "zh": "医院名称"
+                },
+                "field": "hospitalName"
+            },
+            {
+                "label": {
+                    "en": "Department Name",
+                    "zh": "科室名称"
+                },
+                "field": "departmentName"
+            },
+            {
+                "label": {
+                    "en": "Cycle Access",
+                    "zh": "循环通道"
+                },
+                "field": "cycleAccess"
+            },
+            {
+                "label": {
+                    "en": "Pump Speed",
+                    "zh": "泵速"
+                },
+                "field": "pumpSpeed"
+            },
+            {
+                "label": {
+                    "en": "Bar Code Number",
+                    "zh": "条码号"
+                },
+                "field": "barCodeNumber"
+            }
+        ]
+    },
+    "Vision SC": {
+        "image": "/devices/vision-sc.jpg",
+        "tabModules": [
+            {
+                "label": {
+                    "en": "Phase",
+                    "zh": "阶段监控"
+                },
+                "module": "Phase",
+                "config": {
+                    "isShowChart": true,
+                    "fields": [
+                        {
+                            "label": {
+                                "en": "Phase Time",
+                                "zh": "阶段时间"
+                            },
+                            "field": "phaseTime"
+                        },
+                        {
+                            "label": {
+                                "en": "Water Type",
+                                "zh": "水类型"
+                            },
+                            "field": "waterType"
+                        },
+                        {
+                            "label": {
+                                "en": "Heated",
+                                "zh": "加热"
+                            },
+                            "field": "heated"
+                        },
+                        {
+                            "label": {
+                                "en": "Chemical Pump",
+                                "zh": "化学泵"
+                            },
+                            "field": "chemicalPump"
+                        },
+                        {
+                            "label": {
+                                "en": "Chemical Type",
+                                "zh": "化学类型"
+                            },
+                            "field": "chemicalType"
+                        },
+                        {
+                            "label": {
+                                "en": "Injection Rate",
+                                "zh": "注入速率"
+                            },
+                            "field": "injectionRate"
+                        },
+                        {
+                            "label": {
+                                "en": "Temperature",
+                                "zh": "温度"
+                            },
+                            "field": "temperature"
+                        },
+                        {
+                            "label": {
+                                "en": "Number Of Stages",
+                                "zh": "阶段数量"
+                            },
+                            "field": "numberOfStages"
+                        }
+                    ]
+                }
+            },
+            {
+                "label": {
+                    "en": "Raw Report",
+                    "zh": "原始报告"
+                },
+                "module": "RawReport"
+            }
+        ],
+        "fields": [
+            {
+                "label": {
+                    "en": "Unit Serial Number",
+                    "zh": "机器序列号"
+                },
+                "field": "unitSerialNumber"
+            },
+            {
+                "label": {
+                    "en": "Hospital Name",
+                    "zh": "医院名称"
+                },
+                "field": "hospitalName"
+            },
+            {
+                "label": {
+                    "en": "Department Name",
+                    "zh": "科室名称"
+                },
+                "field": "departmentName"
+            },
+            {
+                "label": {
+                    "en": "Cycle Access",
+                    "zh": "循环通道"
+                },
+                "field": "cycleAccess"
+            },
+            {
+                "label": {
+                    "en": "Pump Speed",
+                    "zh": "泵速"
+                },
+                "field": "pumpSpeed"
+            },
+            {
+                "label": {
+                    "en": "Bar Code Number",
+                    "zh": "条码号"
+                },
+                "field": "barCodeNumber"
+            }
+        ]
+    },
+    "AMSCO 3052": {
+        "image": "/devices/amsco-3052.png",
+        "tabModules": [
+            {
+                "label": {
+                    "en": "Phase",
+                    "zh": "阶段监控"
+                },
+                "module": "Phase",
+                "config": {
+                    "isShowChart": true,
+                    "fields": [
+                        {
+                            "label": {
+                                "en": "Water Port",
+                                "zh": "水口"
+                            },
+                            "field": "waterPort"
+                        },
+                        {
+                            "label": {
+                                "en": "Temp",
+                                "zh": "温度"
+                            },
+                            "field": "temp"
+                        },
+                        {
+                            "label": {
+                                "en": "Injection Sequence",
+                                "zh": "注入顺序"
+                            },
+                            "field": "injectionSequence"
+                        },
+                        {
+                            "label": {
+                                "en": "Chemical Used",
+                                "zh": "化学品"
+                            },
+                            "field": "chemicalUsed"
+                        },
+                        {
+                            "label": {
+                                "en": "Concentration",
+                                "zh": "浓度"
+                            },
+                            "field": "concentration"
+                        },
+                        {
+                            "label": {
+                                "en": "Thermal Rinse Type",
+                                "zh": "热冲洗类型"
+                            },
+                            "field": "thermalRinseType"
+                        },
+                        {
+                            "label": {
+                                "en": "AO Value",
+                                "zh": "AO值"
+                            },
+                            "field": "aoValue"
+                        },
+                        {
+                            "label": {
+                                "en": "Min Temp",
+                                "zh": "最小温度"
+                            },
+                            "field": "minTemp"
+                        },
+                        {
+                            "label": {
+                                "en": "Max Temp",
+                                "zh": "最大温度"
+                            },
+                            "field": "maxTemp"
+                        }
+                    ]
+                }
+            },
+            {
+                "label": {
+                    "en": "Raw Report",
+                    "zh": "原始报告"
+                },
+                "module": "RawReport"
+            }
+        ],
+        "fields": [
+            {
+                "label": {
+                    "en": "Pump Speed",
+                    "zh": "泵速"
+                },
+                "field": "pumpSpeed"
+            },
+            {
+                "label": {
+                    "en": "Serial Number",
+                    "zh": "机器序列号"
+                },
+                "field": "serialNumber"
+            }
+        ]
+    },
+    "AMSCO 5052": {
+        "image": "/devices/amsco-3052.png",
+        "tabModules": [
+            {
+                "label": {
+                    "en": "Phase",
+                    "zh": "阶段监控"
+                },
+                "module": "Phase",
+                "config": {
+                    "isShowChart": true,
+                    "fields": [
+                        {
+                            "label": {
+                                "en": "Water Port",
+                                "zh": "水口"
+                            },
+                            "field": "waterPort"
+                        },
+                        {
+                            "label": {
+                                "en": "Temp",
+                                "zh": "温度"
+                            },
+                            "field": "temp"
+                        },
+                        {
+                            "label": {
+                                "en": "Injection Sequence",
+                                "zh": "注入顺序"
+                            },
+                            "field": "injectionSequence"
+                        },
+                        {
+                            "label": {
+                                "en": "Chemical Used",
+                                "zh": "化学品"
+                            },
+                            "field": "chemicalUsed"
+                        },
+                        {
+                            "label": {
+                                "en": "Concentration",
+                                "zh": "浓度"
+                            },
+                            "field": "concentration"
+                        },
+                        {
+                            "label": {
+                                "en": "Thermal Rinse Type",
+                                "zh": "热冲洗类型"
+                            },
+                            "field": "thermalRinseType"
+                        },
+                        {
+                            "label": {
+                                "en": "AO Value",
+                                "zh": "AO值"
+                            },
+                            "field": "aoValue"
+                        },
+                        {
+                            "label": {
+                                "en": "Min Temp",
+                                "zh": "最小温度"
+                            },
+                            "field": "minTemp"
+                        },
+                        {
+                            "label": {
+                                "en": "Max Temp",
+                                "zh": "最大温度"
+                            },
+                            "field": "maxTemp"
+                        }
+                    ]
+                }
+            },
+            {
+                "label": {
+                    "en": "Raw Report",
+                    "zh": "原始报告"
+                },
+                "module": "RawReport"
+            }
+        ],
+        "fields": [
+            {
+                "label": {
+                    "en": "Pump Speed",
+                    "zh": "泵速"
+                },
+                "field": "pumpSpeed"
+            },
+            {
+                "label": {
+                    "en": "Serial Number",
+                    "zh": "机器序列号"
+                },
+                "field": "serialNumber"
+            }
+        ]
+    },
+    "AMSCO 7052": {
+        "image": "/devices/amsco-3052.png",
+        "tabModules": [
+            {
+                "label": {
+                    "en": "Phase",
+                    "zh": "阶段监控"
+                },
+                "module": "Phase",
+                "config": {
+                    "isShowChart": true,
+                    "fields": [
+                        {
+                            "label": {
+                                "en": "Water Port",
+                                "zh": "水口"
+                            },
+                            "field": "waterPort"
+                        },
+                        {
+                            "label": {
+                                "en": "Temp",
+                                "zh": "温度"
+                            },
+                            "field": "temp"
+                        },
+                        {
+                            "label": {
+                                "en": "Injection Sequence",
+                                "zh": "注入顺序"
+                            },
+                            "field": "injectionSequence"
+                        },
+                        {
+                            "label": {
+                                "en": "Chemical Used",
+                                "zh": "化学品"
+                            },
+                            "field": "chemicalUsed"
+                        },
+                        {
+                            "label": {
+                                "en": "Concentration",
+                                "zh": "浓度"
+                            },
+                            "field": "concentration"
+                        },
+                        {
+                            "label": {
+                                "en": "Thermal Rinse Type",
+                                "zh": "热冲洗类型"
+                            },
+                            "field": "thermalRinseType"
+                        },
+                        {
+                            "label": {
+                                "en": "AO Value",
+                                "zh": "AO值"
+                            },
+                            "field": "aoValue"
+                        },
+                        {
+                            "label": {
+                                "en": "Min Temp",
+                                "zh": "最小温度"
+                            },
+                            "field": "minTemp"
+                        },
+                        {
+                            "label": {
+                                "en": "Max Temp",
+                                "zh": "最大温度"
+                            },
+                            "field": "maxTemp"
+                        }
+                    ]
+                }
+            },
+            {
+                "label": {
+                    "en": "Raw Report",
+                    "zh": "原始报告"
+                },
+                "module": "RawReport"
+            }
+        ],
+        "fields": [
+            {
+                "label": {
+                    "en": "Pump Speed",
+                    "zh": "泵速"
+                },
+                "field": "pumpSpeed"
+            },
+            {
+                "label": {
+                    "en": "Serial Number",
+                    "zh": "机器序列号"
+                },
+                "field": "serialNumber"
+            }
+        ]
+    },
+    "Reliance Synergy": {
+        "image": "/devices/genfore.jpg",
+        "tabModules": [
+            {
+                "label": {
+                    "en": "Phase",
+                    "zh": "阶段监控"
+                },
+                "module": "Phase",
+                "config": {
+                    "isShowChart": true,
+                    "fields": [
+                        
+                    ]
+                }
+            },
+            {
+                "label": {
+                    "en": "Raw Report",
+                    "zh": "原始报告"
+                },
+                "module": "RawReport"
+            }
+        ],
+        "fields": [
+            {
+                "label": {
+                    "en": "Unit Serial Number",
+                    "zh": "机器序列号"
+                },
+                "field": "unitSerialNumber"
+            },
+            {
+                "label": {
+                    "en": "Hospital Name",
+                    "zh": "医院名称"
+                },
+                "field": "hospitalName"
+            },
+            {
+                "label": {
+                    "en": "Department Name",
+                    "zh": "科室名称"
+                },
+                "field": "departmentName"
+            }
+        ]
+    },
+    "Reliance Genfore": {
+        "image": "/devices/genfore.jpg",
+        "tabModules": [
+            {
+                "label": {
+                    "en": "Phase",
+                    "zh": "阶段监控"
+                },
+                "module": "Phase",
+                "config": {
+                    "isShowChart": true,
+                    "fields": [
+                        
+                    ]
+                }
+            },
+            {
+                "label": {
+                    "en": "Raw Report",
+                    "zh": "原始报告"
+                },
+                "module": "RawReport"
+            }
+        ],
+        "fields": [
+            {
+                "label": {
+                    "en": "Unit Serial Number",
+                    "zh": "机器序列号"
+                },
+                "field": "unitSerialNumber"
+            },
+            {
+                "label": {
+                    "en": "Hospital Name",
+                    "zh": "医院名称"
+                },
+                "field": "hospitalName"
+            },
+            {
+                "label": {
+                    "en": "Department Name",
+                    "zh": "科室名称"
+                },
+                "field": "departmentName"
+            }
+        ]
+    },
+    "Reliance 444": {
+        "image": "/devices/genfore.jpg",
+        "tabModules": [
+            {
+                "label": {
+                    "en": "Phase",
+                    "zh": "阶段监控"
+                },
+                "module": "Phase",
+                "config": {
+                    "isShowChart": true,
+                    "fields": [
+                        
+                    ]
+                }
+            },
+            {
+                "label": {
+                    "en": "Raw Report",
+                    "zh": "原始报告"
+                },
+                "module": "RawReport"
+            }
+        ],
+        "fields": [
+            {
+                "label": {
+                    "en": "Unit Serial Number",
+                    "zh": "机器序列号"
+                },
+                "field": "unitSerialNumber"
+            },
+            {
+                "label": {
+                    "en": "Hospital Name",
+                    "zh": "医院名称"
+                },
+                "field": "hospitalName"
+            },
+            {
+                "label": {
+                    "en": "Department Name",
+                    "zh": "科室名称"
+                },
+                "field": "departmentName"
+            }
+        ]
+    }
+}
